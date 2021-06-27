@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_status" table="u_vagas" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_status</element>
+            <name>u_vagas</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-22 16:14:10</sys_created_on>
+            <sys_id>7f18a9df1bb03010b47c5283604bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_status</sys_name>
+            <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+            <sys_update_name>sys_choice_u_vagas_u_status</sys_update_name>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-22 16:14:10</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aguardando Aprovacao</label>
+            <language>en</language>
+            <name>u_vagas</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-22 16:14:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3718a9df1bb03010b47c5283604bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-22 16:14:10</sys_updated_on>
+            <value>aguardando aprovacao</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aguardando Atribuicao</label>
+            <language>en</language>
+            <name>u_vagas</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-22 16:14:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b318a9df1bb03010b47c5283604bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-22 16:14:10</sys_updated_on>
+            <value>aguardando atribuicao</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fase de Entrevistas</label>
+            <language>en</language>
+            <name>u_vagas</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-22 16:14:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3718a9df1bb03010b47c5283604bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-22 16:14:10</sys_updated_on>
+            <value>fase de entrevistas</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aguardando Contratacao</label>
+            <language>en</language>
+            <name>u_vagas</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-22 16:14:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b718a9df1bb03010b47c5283604bcb4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-22 16:14:10</sys_updated_on>
+            <value>aguardando contratacao</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Encerrado</label>
+            <language>en</language>
+            <name>u_vagas</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-22 16:14:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3b18a9df1bb03010b47c5283604bcb4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-22 16:14:10</sys_updated_on>
+            <value>encerrado</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

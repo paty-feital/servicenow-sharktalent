@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_estagio" table="u_vagascandidatos" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_estagio</element>
+            <name>u_vagascandidatos</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-23 18:10:14</sys_created_on>
+            <sys_id>294c03671bf07010b47c5283604bcbc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_estagio</sys_name>
+            <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+            <sys_update_name>sys_choice_u_vagascandidatos_u_estagio</sys_update_name>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-23 18:10:14</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_estagio</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aprovado</label>
+            <language>en</language>
+            <name>u_vagascandidatos</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 17:59:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d56350881b41b010b47c5283604bcbb0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 17:59:26</sys_updated_on>
+            <value>aprovado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_estagio</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Não Aprovado</label>
+            <language>en</language>
+            <name>u_vagascandidatos</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 17:59:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>916350881b41b010b47c5283604bcbb2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 17:59:26</sys_updated_on>
+            <value>não aprovado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_estagio</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Concluído</label>
+            <language>en</language>
+            <name>u_vagascandidatos</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 19:06:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ec2ac841b81b010b47c5283604bcbff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 19:06:41</sys_updated_on>
+            <value>concluído</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

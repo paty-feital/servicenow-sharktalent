@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description/>
+        <name>CEPAutomation</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://viacep.com.br/ws/${cepViaCep}/json/</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-25 15:51:58</sys_created_on>
+        <sys_id>1e3ffc181b813010b47c5283604bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CEPAutomation</sys_name>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name>sys_rest_message_1e3ffc181b813010b47c5283604bcb10</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-25 15:51:58</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>

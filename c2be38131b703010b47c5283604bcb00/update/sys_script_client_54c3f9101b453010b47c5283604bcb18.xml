@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_cep</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>CEPAutomationClt</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    //Type appropriate comment here, and begin script below
+
+    var enderecoJSON = new GlideAjax('CEPAutomationInc');
+    enderecoJSON.addParam('sysparams_cep', g_form.getValue('u_cep'));
+    enderecoJSON.getXML(function(response) {
+
+        var tmpData = response.responseXML.documentElement.getAttribute('answer');
+		alert(tmpData);
+		
+        if (tmpData != null) {
+            var resultJSON = JSON.parse(tmpData);
+            displayMessage(resultJSON[0].displayValue + 'updated', 'success');
+            buildResultsTable();
+        } else {
+            displayMessage('Records successfully updated', 'error');
+        }
+    });
+
+    //     enderecoJSON.getJSON(function(response) {
+
+    // 		alert(response);
+
+    // 		var responseObj = JSON.parse(response);
+
+    //     g_form.setValue('u_enrececo', responseObj.logradouro);
+    //     g_form.setValue('u_bairro', responseObj.bairro);
+    //     g_form.setValue('u_cidade', responseObj.localidade);
+    //     g_form.setValue('u_estado', responseObj.uf);
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-25 21:56:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>54c3f9101b453010b47c5283604bcb18</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>CEPAutomationClt</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name>sys_script_client_54c3f9101b453010b47c5283604bcb18</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-26 20:02:57</sys_updated_on>
+        <table>u_candidatos</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

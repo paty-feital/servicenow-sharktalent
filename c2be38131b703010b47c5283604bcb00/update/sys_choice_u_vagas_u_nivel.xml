@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_nivel" table="u_vagas" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_nivel</element>
+            <name>u_vagas</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-22 16:14:10</sys_created_on>
+            <sys_id>e718a9df1bb03010b47c5283604bcb09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_nivel</sys_name>
+            <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+            <sys_update_name>sys_choice_u_vagas_u_nivel</sys_update_name>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-22 16:14:10</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_nivel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Junior</label>
+            <language>en</language>
+            <name>u_vagas</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-22 16:14:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f18a9df1bb03010b47c5283604bcb08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-22 16:14:10</sys_updated_on>
+            <value>junior</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_nivel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pleno</label>
+            <language>en</language>
+            <name>u_vagas</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-22 16:14:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a718a9df1bb03010b47c5283604bcb17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-22 16:14:10</sys_updated_on>
+            <value>pleno</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_nivel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Senior</label>
+            <language>en</language>
+            <name>u_vagas</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-22 16:14:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b18a9df1bb03010b47c5283604bcb18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-22 16:14:10</sys_updated_on>
+            <value>senior</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_nivel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Analyst</label>
+            <language>en</language>
+            <name>u_vagas</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-22 16:14:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ab18a9df1bb03010b47c5283604bcb19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-22 16:14:10</sys_updated_on>
+            <value>analyst</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_nivel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Estagio</label>
+            <language>en</language>
+            <name>u_vagas</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-22 16:14:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f18a9df1bb03010b47c5283604bcb1a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-22 16:14:10</sys_updated_on>
+            <value>estagio</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

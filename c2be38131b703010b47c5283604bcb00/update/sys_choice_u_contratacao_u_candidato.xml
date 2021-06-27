@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_candidato" table="u_contratacao" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_candidato</element>
+            <name>u_contratacao</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-22 17:08:38</sys_created_on>
+            <sys_id>ad94359b1bf03010b47c5283604bcba0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_candidato</sys_name>
+            <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+            <sys_update_name>sys_choice_u_contratacao_u_candidato</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-22 17:08:38</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

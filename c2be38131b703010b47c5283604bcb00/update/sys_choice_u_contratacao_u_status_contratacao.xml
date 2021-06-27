@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_status_contratacao" table="u_contratacao" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_status_contratacao</element>
+            <name>u_contratacao</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-22 19:50:55</sys_created_on>
+            <sys_id>f2b91a5b1b743010b47c5283604bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_status_contratacao</sys_name>
+            <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+            <sys_update_name>sys_choice_u_contratacao_u_status_contratacao</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-22 19:50:55</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status_contratacao</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Contratação Iniciada</label>
+            <language>en</language>
+            <name>u_contratacao</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-22 19:50:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bab91a5b1b743010b47c5283604bcb2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-22 19:50:55</sys_updated_on>
+            <value>contratação iniciada</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status_contratacao</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Contratação Encerrada</label>
+            <language>en</language>
+            <name>u_contratacao</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-22 19:50:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6b91a5b1b743010b47c5283604bcb2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-22 19:50:55</sys_updated_on>
+            <value>contratação encerrada</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

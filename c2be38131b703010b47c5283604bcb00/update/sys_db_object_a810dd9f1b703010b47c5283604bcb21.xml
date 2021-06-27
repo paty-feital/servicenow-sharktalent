@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Candidatos</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>u_candidatos</name>
+        <number_ref display_value="CAN">fb0f71a71bfc3010b47c5283604bcb3d</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-22 14:32:36</sys_created_on>
+        <sys_id>a810dd9f1b703010b47c5283604bcb21</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Candidatos</sys_name>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name>sys_db_object_a810dd9f1b703010b47c5283604bcb21</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-23 12:32:53</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="u_candidatos_user" name="u_candidatos_user">3fd091df1b703010b47c5283604bcbbd</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

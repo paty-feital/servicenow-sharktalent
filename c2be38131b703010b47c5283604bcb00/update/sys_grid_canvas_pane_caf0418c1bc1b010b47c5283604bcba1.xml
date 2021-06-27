@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Onboarding DashBoard - New Tab">7cd0cd4c1bc1b010b47c5283604bcb1e</grid_canvas>
+        <height>14</height>
+        <portal_widget display_value="Created 2021-06-24 14:18:33">c2f0494c1bc1b010b47c5283604bcbc1</portal_widget>
+        <posx>4</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 21:18:33</sys_created_on>
+        <sys_id>caf0418c1bc1b010b47c5283604bcba1</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>7cd0cd4c1bc1b010b47c5283604bcb1e</sys_name>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_caf0418c1bc1b010b47c5283604bcba1</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-25 12:32:33</sys_updated_on>
+        <width>4</width>
+    </sys_grid_canvas_pane>
+</record_update>

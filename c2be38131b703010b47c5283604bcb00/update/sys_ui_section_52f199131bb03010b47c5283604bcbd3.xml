@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="52f199131bb03010b47c5283604bcbd3" sys_domain="global" table="u_vagas" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_number</element>
+            <position>0</position>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 20:57:46</sys_created_on>
+            <sys_id>6d3cf0881bc1b010b47c5283604bcb1a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_vagas" sys_domain="global" view="Default view">52f199131bb03010b47c5283604bcbd3</sys_ui_section>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 20:57:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_solicitante</element>
+            <position>1</position>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 20:57:46</sys_created_on>
+            <sys_id>e13cf0881bc1b010b47c5283604bcb1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_vagas" sys_domain="global" view="Default view">52f199131bb03010b47c5283604bcbd3</sys_ui_section>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 20:57:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_titulo</element>
+            <position>2</position>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 20:57:46</sys_created_on>
+            <sys_id>653cf0881bc1b010b47c5283604bcb1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_vagas" sys_domain="global" view="Default view">52f199131bb03010b47c5283604bcbd3</sys_ui_section>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 20:57:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_nivel</element>
+            <position>3</position>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 20:57:46</sys_created_on>
+            <sys_id>e53cf0881bc1b010b47c5283604bcb1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_vagas" sys_domain="global" view="Default view">52f199131bb03010b47c5283604bcbd3</sys_ui_section>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 20:57:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_departamento</element>
+            <position>4</position>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 20:57:46</sys_created_on>
+            <sys_id>693cf0881bc1b010b47c5283604bcb1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_vagas" sys_domain="global" view="Default view">52f199131bb03010b47c5283604bcbd3</sys_ui_section>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 20:57:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_funcao</element>
+            <position>5</position>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 20:57:46</sys_created_on>
+            <sys_id>e93cf0881bc1b010b47c5283604bcb1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_vagas" sys_domain="global" view="Default view">52f199131bb03010b47c5283604bcbd3</sys_ui_section>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 20:57:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_descricao</element>
+            <position>6</position>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 20:57:46</sys_created_on>
+            <sys_id>6d3cf0881bc1b010b47c5283604bcb1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_vagas" sys_domain="global" view="Default view">52f199131bb03010b47c5283604bcbd3</sys_ui_section>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 20:57:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_urgencia</element>
+            <position>7</position>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 20:57:46</sys_created_on>
+            <sys_id>ed3cf0881bc1b010b47c5283604bcb1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_vagas" sys_domain="global" view="Default view">52f199131bb03010b47c5283604bcbd3</sys_ui_section>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 20:57:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_teto_salarial</element>
+            <position>8</position>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 20:57:46</sys_created_on>
+            <sys_id>613cf0881bc1b010b47c5283604bcb1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_vagas" sys_domain="global" view="Default view">52f199131bb03010b47c5283604bcbd3</sys_ui_section>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 20:57:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 20:57:46</sys_created_on>
+            <sys_id>e13cf0881bc1b010b47c5283604bcb1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_vagas" sys_domain="global" view="Default view">52f199131bb03010b47c5283604bcbd3</sys_ui_section>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 20:57:46</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_quantidade_de_vaga</element>
+            <position>10</position>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 20:57:46</sys_created_on>
+            <sys_id>653cf0881bc1b010b47c5283604bcb1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_vagas" sys_domain="global" view="Default view">52f199131bb03010b47c5283604bcbd3</sys_ui_section>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 20:57:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_status_da_aprova_o</element>
+            <position>11</position>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 20:57:46</sys_created_on>
+            <sys_id>e53cf0881bc1b010b47c5283604bcb1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_vagas" sys_domain="global" view="Default view">52f199131bb03010b47c5283604bcbd3</sys_ui_section>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 20:57:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_assigned_to</element>
+            <position>12</position>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 20:57:46</sys_created_on>
+            <sys_id>693cf0881bc1b010b47c5283604bcb1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_vagas" sys_domain="global" view="Default view">52f199131bb03010b47c5283604bcbd3</sys_ui_section>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 20:57:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_to_me</element>
+            <position>13</position>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 20:57:46</sys_created_on>
+            <sys_id>e93cf0881bc1b010b47c5283604bcb1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_vagas" sys_domain="global" view="Default view">52f199131bb03010b47c5283604bcbd3</sys_ui_section>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 20:57:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>14</position>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 20:57:46</sys_created_on>
+            <sys_id>6d3cf0881bc1b010b47c5283604bcb1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_vagas" sys_domain="global" view="Default view">52f199131bb03010b47c5283604bcbd3</sys_ui_section>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 20:57:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_by</element>
+            <position>15</position>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 20:57:46</sys_created_on>
+            <sys_id>ed3cf0881bc1b010b47c5283604bcb1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_vagas" sys_domain="global" view="Default view">52f199131bb03010b47c5283604bcbd3</sys_ui_section>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 20:57:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>u_vagas</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-22 14:37:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52f199131bb03010b47c5283604bcbd3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_vagas</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+            <sys_update_name>sys_ui_section_52f199131bb03010b47c5283604bcbd3</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-22 14:37:24</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

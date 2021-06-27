@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_complemento" label="Complemento" language="en" table="u_candidatos">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_complemento</element>
+            <help/>
+            <hint/>
+            <label>Complemento</label>
+            <language>en</language>
+            <name>u_candidatos</name>
+            <plural>Complementos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-22 14:32:37</sys_created_on>
+            <sys_id>d4e01ddf1b703010b47c5283604bcb91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Complemento</sys_name>
+            <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+            <sys_update_name>sys_documentation_u_candidatos_u_complemento_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-22 14:32:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

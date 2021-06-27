@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <dispatched_events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Cell 1","rules":{"grid-area":"cell1"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Cell 2","rules":{"grid-area":"cell2"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Cell 3","rules":{"grid-area":"cell3"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Cell 4","rules":{"grid-area":"cell4"},"styles":{"display":"flex","flex-direction":"column"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"1fr 1fr","grid-template-columns":"1fr 1fr","grid-template-areas":"\"cell1 cell2\" \"cell3 cell4\"","grid-gap":"1rem","min-height":"400px","height":"100%"},
+    "styles" : null,
+    "templateId" : "b719698953c31010e6bcddeeff7b1275",
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>ONBOARDING Dashboard</name>
+        <props>[ ]</props>
+        <required_translations>[]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 21:07:46</sys_created_on>
+        <sys_id>f37e7cc81bc1b010b47c5283604bcba9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ONBOARDING Dashboard</sys_name>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name>sys_ux_macroponent_f37e7cc81bc1b010b47c5283604bcba9</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 21:10:01</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

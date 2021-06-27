@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="u_candidatos" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_number</element>
+            <list_id display_value="u_candidatos" element="NULL" name="u_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">412f1f331bfc7010b47c5283604bcb31</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 14:11:08</sys_created_on>
+            <sys_id>852f1bb31bfc7010b47c5283604bcb78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 14:11:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_nome</element>
+            <list_id display_value="u_candidatos" element="NULL" name="u_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">412f1f331bfc7010b47c5283604bcb31</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 14:11:08</sys_created_on>
+            <sys_id>092f1bb31bfc7010b47c5283604bcb78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 14:11:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_pretensao_salarial</element>
+            <list_id display_value="u_candidatos" element="NULL" name="u_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">412f1f331bfc7010b47c5283604bcb31</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 14:11:08</sys_created_on>
+            <sys_id>892f1bb31bfc7010b47c5283604bcb78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 14:11:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_cidade</element>
+            <list_id display_value="u_candidatos" element="NULL" name="u_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">412f1f331bfc7010b47c5283604bcb31</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 14:11:08</sys_created_on>
+            <sys_id>0d2f1bb31bfc7010b47c5283604bcb78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 14:11:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_estado</element>
+            <list_id display_value="u_candidatos" element="NULL" name="u_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">412f1f331bfc7010b47c5283604bcb31</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 14:11:08</sys_created_on>
+            <sys_id>8d2f1bb31bfc7010b47c5283604bcb78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 14:11:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_sexo</element>
+            <list_id display_value="u_candidatos" element="NULL" name="u_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">412f1f331bfc7010b47c5283604bcb31</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 14:11:08</sys_created_on>
+            <sys_id>012f1bb31bfc7010b47c5283604bcb79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 14:11:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_status</element>
+            <list_id display_value="u_candidatos" element="NULL" name="u_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">412f1f331bfc7010b47c5283604bcb31</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 14:11:08</sys_created_on>
+            <sys_id>812f1bb31bfc7010b47c5283604bcb79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 14:11:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="u_candidatos" element="NULL" name="u_candidatos" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">412f1f331bfc7010b47c5283604bcb31</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 14:11:08</sys_created_on>
+            <sys_id>052f1bb31bfc7010b47c5283604bcb79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 14:11:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>u_candidatos</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2021-06-24 14:11:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>412f1f331bfc7010b47c5283604bcb31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_candidatos</sys_name>
+            <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+            <sys_update_name>sys_ui_list_u_candidatos_null</sys_update_name>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2021-06-24 14:11:08</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

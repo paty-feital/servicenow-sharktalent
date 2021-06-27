@@ -1,0 +1,1702 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-quebec-12-09-2020__patch1-02-18-2021</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>contratar</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger➛VagasCandidatos Record","reference":"u_vagascandidatos","reference_display":"VagasCandidatos","type":"reference","base_type":"reference","attributes":{}},{"name":"b20f38f8-58b7-456a-b9f1-9c8e051f46fb.table_name","label":"3➛VagasCandidatos Table","reference":"u_vagascandidatos","reference_display":"VagasCandidatos","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b20f38f8-58b7-456a-b9f1-9c8e051f46fb.record","label":"3➛VagasCandidatos Record","reference":"u_vagascandidatos","reference_display":"VagasCandidatos","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ecfc3d42-8095-44dd-b563-78756fc22637.record","label":"1➛Contratacao Record","reference":"u_contratacao","reference_display":"Contratacao","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ecfc3d42-8095-44dd-b563-78756fc22637.table_name","label":"1➛Contratacao Table","reference":"u_contratacao","reference_display":"Contratacao","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.u_id_candidatos","label":"Trigger➛VagasCandidatos Record➛Candidato","reference":"u_candidatos","reference_display":"Candidatos","type":"reference","base_type":"reference","parent_table_name":"u_vagascandidatos","column_name":"u_id_candidatos"},{"name":"Updated_1.current.u_vaga","label":"Trigger➛VagasCandidatos Record➛Vaga","reference":"u_vagas","reference_display":"Vagas","type":"reference","base_type":"reference","parent_table_name":"u_vagascandidatos","column_name":"u_vaga"},{"name":"3ebe3312-b21b-4602-85c2-120200e35689.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3ebe3312-b21b-4602-85c2-120200e35689.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e1aada23-e730-463b-8f47-fcd12bf178cb.record","label":"2➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e1aada23-e730-463b-8f47-fcd12bf178cb.table_name","label":"2➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.u_vaga.u_departamento","label":"Trigger➛VagasCandidatos Record➛Vaga➛Departamento","reference":"cmn_department","reference_display":"Department","type":"reference","base_type":"reference","parent_table_name":"u_vagas","column_name":"u_departamento"},{"name":"Updated_1.current.u_id_candidatos.u_nome","label":"Trigger➛VagasCandidatos Record➛Candidato➛Nome","reference":"","reference_display":"Nome","type":"string","base_type":"string","parent_table_name":"u_candidatos","column_name":"u_nome"},{"name":"Updated_1.current.u_id_candidatos.u_sexo","label":"Trigger➛VagasCandidatos Record➛Candidato➛Sexo","reference":"","reference_display":"Sexo","type":"choice","base_type":"choice","parent_table_name":"u_candidatos","column_name":"u_sexo"},{"name":"55377f75-3b3f-4293-9ebf-228d32d528bd.record","label":"4➛Candidatos Record","reference":"u_candidatos","reference_display":"Candidatos","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"55377f75-3b3f-4293-9ebf-228d32d528bd.table_name","label":"4➛Candidatos Table","reference":"u_candidatos","reference_display":"Candidatos","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot>8406ac481b81b010b47c5283604bcb23</latest_snapshot>
+        <master_snapshot>b2d46c081b81b010b47c5283604bcbd8</master_snapshot>
+        <name>Contratar</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>03d4ac081b81b010b47c5283604bcb47</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 18:54:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b3efd8041b81b010b47c5283604bcb04</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Contratar</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name>sys_hub_flow_b3efd8041b81b010b47c5283604bcb04</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:45</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=b3efd8041b81b010b47c5283604bcb04"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b3efd8041b81b010b47c5283604bcb04"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="u_vagascandidatos">u_estagio=aprovado<item display_value="Aprovado" endquery="false" field="u_estagio" goto="false" newquery="false" operator="=" or="false" value="aprovado"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>03d4ac081b81b010b47c5283604bcb47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:45</sys_updated_on>
+        <table>u_vagascandidatos</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"8bd4ac081b81b010b47c5283604bcb47","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>b3efd8041b81b010b47c5283604bcb04</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:45</sys_created_on>
+        <sys_id>8bd4ac081b81b010b47c5283604bcb47</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:45</sys_updated_on>
+        <trigger display_value="">03d4ac081b81b010b47c5283604bcb47</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>8bd4ac081b81b010b47c5283604bcb47</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:45</sys_created_on>
+        <sys_id>03d4ac081b81b010b47c5283604bcb48</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=b3efd8041b81b010b47c5283604bcb04^sys_idNOT IN8bd4ac081b81b010b47c5283604bcb47"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=b3efd8041b81b010b47c5283604bcb04^sys_idNOT IN3ad1a0841b81b010b47c5283604bcb8d"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Contratar">b3efd8041b81b010b47c5283604bcb04</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:02:37</sys_created_on>
+        <sys_id>3ad1a0841b81b010b47c5283604bcb8d</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:45</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3ad1a0841b81b010b47c5283604bcb8d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3ad1a0841b81b010b47c5283604bcb8d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:02:37</sys_created_on>
+        <sys_id>b6d1a0841b81b010b47c5283604bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:02:37</sys_updated_on>
+        <value>u_estagio=aprovado</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3ad1a0841b81b010b47c5283604bcb8d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:02:37</sys_created_on>
+        <sys_id>bed1a0841b81b010b47c5283604bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:02:37</sys_updated_on>
+        <value>u_vagascandidatos</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=b3efd8041b81b010b47c5283604bcb04^sys_idNOT IN33efd8041b81b010b47c5283604bcb05"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b3efd8041b81b010b47c5283604bcb04</id>
+        <name>Contratar</name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 18:54:14</sys_created_on>
+        <sys_id>33efd8041b81b010b47c5283604bcb05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 18:54:14</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=b3efd8041b81b010b47c5283604bcb04^sys_idNOT IN26d1a0841b81b010b47c5283604bcb7a,36d1a0841b81b010b47c5283604bcb86,f6d1a0841b81b010b47c5283604bcb80"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Contratar">b3efd8041b81b010b47c5283604bcb04</model>
+        <model_id>b3efd8041b81b010b47c5283604bcb04</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_b3efd8041b81b010b47c5283604bcb04</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:02:37</sys_created_on>
+        <sys_id>26d1a0841b81b010b47c5283604bcb7a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Contratar">b3efd8041b81b010b47c5283604bcb04</model>
+        <model_id>b3efd8041b81b010b47c5283604bcb04</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_b3efd8041b81b010b47c5283604bcb04</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:02:37</sys_created_on>
+        <sys_id>36d1a0841b81b010b47c5283604bcb86</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDc7d4ac08c281b010ef8082213e6a0f5b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Contratar">b3efd8041b81b010b47c5283604bcb04</model>
+        <model_id>b3efd8041b81b010b47c5283604bcb04</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_b3efd8041b81b010b47c5283604bcb04</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:02:37</sys_created_on>
+        <sys_id>f6d1a0841b81b010b47c5283604bcb80</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=b3efd8041b81b010b47c5283604bcb04^sys_idNOT IN1eb32cc41b81b010b47c5283604bcbc5,76d1a0841b81b010b47c5283604bcb93,7ad1a0841b81b010b47c5283604bcb99,af2324c41b81b010b47c5283604bcb6c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Contratar">b3efd8041b81b010b47c5283604bcb04</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:10:46</sys_created_on>
+        <sys_id>1eb32cc41b81b010b47c5283604bcbc5</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:45</sys_updated_on>
+        <ui_id>55377f75-3b3f-4293-9ebf-228d32d528bd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1eb32cc41b81b010b47c5283604bcbc5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1eb32cc41b81b010b47c5283604bcbc5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:43</sys_created_on>
+        <sys_id>22d46c081b81b010b47c5283604bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:43</sys_updated_on>
+        <value>u_status=encerrado</value>
+        <variable display_value="Fields">e7d270ccc3c632002841b63b12d3ae8b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1eb32cc41b81b010b47c5283604bcbc5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:10:46</sys_created_on>
+        <sys_id>56b32cc41b81b010b47c5283604bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:10:46</sys_updated_on>
+        <value>u_status=encerrado</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1eb32cc41b81b010b47c5283604bcbc5</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:10:46</sys_created_on>
+        <sys_id>deb32cc41b81b010b47c5283604bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:10:46</sys_updated_on>
+        <value>u_candidatos</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1eb32cc41b81b010b47c5283604bcbc5</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:43</sys_created_on>
+        <sys_id>e2d46c081b81b010b47c5283604bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:43</sys_updated_on>
+        <value>u_candidatos</value>
+        <variable display_value="Table">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1eb32cc41b81b010b47c5283604bcbc5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>1eb32cc41b81b010b47c5283604bcbc5</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:43</sys_created_on>
+        <sys_id>ead46c081b81b010b47c5283604bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{Updated_1.current.u_id_candidatos}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>1eb32cc41b81b010b47c5283604bcbc5</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:10:46</sys_created_on>
+        <sys_id>12b32cc41b81b010b47c5283604bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:10:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current.u_id_candidatos}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>1eb32cc41b81b010b47c5283604bcbc5</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:43</sys_created_on>
+        <sys_id>2ad46c081b81b010b47c5283604bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>1eb32cc41b81b010b47c5283604bcbc5</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:10:46</sys_created_on>
+        <sys_id>5eb32cc41b81b010b47c5283604bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:10:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>1eb32cc41b81b010b47c5283604bcbc5</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:43</sys_created_on>
+        <sys_id>aed46c081b81b010b47c5283604bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>1eb32cc41b81b010b47c5283604bcbc5</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:10:46</sys_created_on>
+        <sys_id>d2b32cc41b81b010b47c5283604bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:10:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Contratar">b3efd8041b81b010b47c5283604bcb04</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:02:37</sys_created_on>
+        <sys_id>76d1a0841b81b010b47c5283604bcb93</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:45</sys_updated_on>
+        <ui_id>ecfc3d42-8095-44dd-b563-78756fc22637</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=76d1a0841b81b010b47c5283604bcb93"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>76d1a0841b81b010b47c5283604bcb93</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:42</sys_created_on>
+        <sys_id>eed46c081b81b010b47c5283604bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:42</sys_updated_on>
+        <value>u_contratacao</value>
+        <variable display_value="Table">0352fc8cc3c632002841b63b12d3ae12</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>76d1a0841b81b010b47c5283604bcb93</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:02:37</sys_created_on>
+        <sys_id>fad1a0841b81b010b47c5283604bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:02:37</sys_updated_on>
+        <value>u_contratacao</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=76d1a0841b81b010b47c5283604bcb93"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>76d1a0841b81b010b47c5283604bcb93</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:42</sys_created_on>
+        <sys_id>a6d46c081b81b010b47c5283604bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>76d1a0841b81b010b47c5283604bcb93</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:02:37</sys_created_on>
+        <sys_id>b2d1a0841b81b010b47c5283604bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:02:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>76d1a0841b81b010b47c5283604bcb93</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:42</sys_created_on>
+        <sys_id>6ed46c081b81b010b47c5283604bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value>u_candidato={{Updated_1.current.u_id_candidatos}}^u_vaga_originadora={{Updated_1.current.u_vaga}}^u_criar_usuario_servicenow=true^u_status_contratacao=contratação iniciada</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>76d1a0841b81b010b47c5283604bcb93</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:02:37</sys_created_on>
+        <sys_id>7ad1a0841b81b010b47c5283604bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:02:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>u_candidato={{Updated_1.current.u_id_candidatos}}^u_vaga_originadora={{Updated_1.current.u_vaga}}^u_criar_usuario_servicenow=true^u_status_contratacao=contratação iniciada</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Contratar">b3efd8041b81b010b47c5283604bcb04</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:02:37</sys_created_on>
+        <sys_id>7ad1a0841b81b010b47c5283604bcb99</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:45</sys_updated_on>
+        <ui_id>e1aada23-e730-463b-8f47-fcd12bf178cb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7ad1a0841b81b010b47c5283604bcb99"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ad1a0841b81b010b47c5283604bcb99</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:42</sys_created_on>
+        <sys_id>2ed46c081b81b010b47c5283604bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:42</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">0352fc8cc3c632002841b63b12d3ae12</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ad1a0841b81b010b47c5283604bcb99</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:02:37</sys_created_on>
+        <sys_id>7ed1a0841b81b010b47c5283604bcb9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:02:37</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7ad1a0841b81b010b47c5283604bcb99"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>7ad1a0841b81b010b47c5283604bcb99</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:42</sys_created_on>
+        <sys_id>e6d46c081b81b010b47c5283604bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>7ad1a0841b81b010b47c5283604bcb99</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:02:37</sys_created_on>
+        <sys_id>3ad1a0841b81b010b47c5283604bcb9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:02:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>7ad1a0841b81b010b47c5283604bcb99</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:42</sys_created_on>
+        <sys_id>aad46c081b81b010b47c5283604bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value>active=true^calendar_integration=1^department={{Updated_1.current.u_vaga.u_departamento}}^name={{Updated_1.current.u_id_candidatos.u_nome}}^gender={{Updated_1.current.u_id_candidatos.u_sexo}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>7ad1a0841b81b010b47c5283604bcb99</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:02:37</sys_created_on>
+        <sys_id>fad1a0841b81b010b47c5283604bcb9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:02:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>active=true^calendar_integration=1^department={{Updated_1.current.u_vaga.u_departamento}}^name={{Updated_1.current.u_id_candidatos.u_nome}}^gender={{Updated_1.current.u_id_candidatos.u_sexo}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Contratar">b3efd8041b81b010b47c5283604bcb04</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:08:24</sys_created_on>
+        <sys_id>af2324c41b81b010b47c5283604bcb6c</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:45</sys_updated_on>
+        <ui_id>b20f38f8-58b7-456a-b9f1-9c8e051f46fb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=af2324c41b81b010b47c5283604bcb6c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>af2324c41b81b010b47c5283604bcb6c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:08:25</sys_created_on>
+        <sys_id>272324c41b81b010b47c5283604bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:08:25</sys_updated_on>
+        <value>u_estagio=concluído</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>af2324c41b81b010b47c5283604bcb6c</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:43</sys_created_on>
+        <sys_id>a2d46c081b81b010b47c5283604bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:43</sys_updated_on>
+        <value>u_vagascandidatos</value>
+        <variable display_value="Table">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>af2324c41b81b010b47c5283604bcb6c</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:08:25</sys_created_on>
+        <sys_id>eb2324c41b81b010b47c5283604bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:08:25</sys_updated_on>
+        <value>u_vagascandidatos</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>af2324c41b81b010b47c5283604bcb6c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:43</sys_created_on>
+        <sys_id>eed46c081b81b010b47c5283604bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:43</sys_updated_on>
+        <value>u_estagio=concluído</value>
+        <variable display_value="Fields">e7d270ccc3c632002841b63b12d3ae8b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=af2324c41b81b010b47c5283604bcb6c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>af2324c41b81b010b47c5283604bcb6c</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:43</sys_created_on>
+        <sys_id>aad46c081b81b010b47c5283604bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>af2324c41b81b010b47c5283604bcb6c</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:08:25</sys_created_on>
+        <sys_id>ef2324c41b81b010b47c5283604bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:08:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>af2324c41b81b010b47c5283604bcb6c</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:43</sys_created_on>
+        <sys_id>e6d46c081b81b010b47c5283604bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>af2324c41b81b010b47c5283604bcb6c</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:08:25</sys_created_on>
+        <sys_id>2b2324c41b81b010b47c5283604bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:08:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>af2324c41b81b010b47c5283604bcb6c</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:43</sys_created_on>
+        <sys_id>6ed46c081b81b010b47c5283604bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>af2324c41b81b010b47c5283604bcb6c</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:08:25</sys_created_on>
+        <sys_id>a32324c41b81b010b47c5283604bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:08:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_b3efd8041b81b010b47c5283604bcb04^sys_idNOT IN72d1a0841b81b010b47c5283604bcb7f,b6d1a0841b81b010b47c5283604bcb8a,bed1a0841b81b010b47c5283604bcb84"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b3efd8041b81b010b47c5283604bcb04</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:02:37</sys_created_on>
+        <sys_id>72d1a0841b81b010b47c5283604bcb7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:02:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b3efd8041b81b010b47c5283604bcb04</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:02:37</sys_created_on>
+        <sys_id>b6d1a0841b81b010b47c5283604bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:02:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b3efd8041b81b010b47c5283604bcb04</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:02:37</sys_created_on>
+        <sys_id>bed1a0841b81b010b47c5283604bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:02:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=b3efd8041b81b010b47c5283604bcb04^sys_idNOT IN8fd4ac081b81b010b47c5283604bcb48"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"8fd4ac081b81b010b47c5283604bcb48","name":"plan"}}</plan>
+        <plan_id>b3efd8041b81b010b47c5283604bcb04</plan_id>
+        <snapshot>8406ac481b81b010b47c5283604bcb23</snapshot>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8fd4ac081b81b010b47c5283604bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:45</sys_updated_on>
+        <trigger display_value="">03d4ac081b81b010b47c5283604bcb47</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>contratar</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger➛VagasCandidatos Record","reference":"u_vagascandidatos","reference_display":"VagasCandidatos","type":"reference","base_type":"reference","attributes":{}},{"name":"b20f38f8-58b7-456a-b9f1-9c8e051f46fb.table_name","label":"3➛VagasCandidatos Table","reference":"u_vagascandidatos","reference_display":"VagasCandidatos","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b20f38f8-58b7-456a-b9f1-9c8e051f46fb.record","label":"3➛VagasCandidatos Record","reference":"u_vagascandidatos","reference_display":"VagasCandidatos","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ecfc3d42-8095-44dd-b563-78756fc22637.record","label":"1➛Contratacao Record","reference":"u_contratacao","reference_display":"Contratacao","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ecfc3d42-8095-44dd-b563-78756fc22637.table_name","label":"1➛Contratacao Table","reference":"u_contratacao","reference_display":"Contratacao","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.u_id_candidatos","label":"Trigger➛VagasCandidatos Record➛Candidato","reference":"u_candidatos","reference_display":"Candidatos","type":"reference","base_type":"reference","parent_table_name":"u_vagascandidatos","column_name":"u_id_candidatos"},{"name":"Updated_1.current.u_vaga","label":"Trigger➛VagasCandidatos Record➛Vaga","reference":"u_vagas","reference_display":"Vagas","type":"reference","base_type":"reference","parent_table_name":"u_vagascandidatos","column_name":"u_vaga"},{"name":"3ebe3312-b21b-4602-85c2-120200e35689.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3ebe3312-b21b-4602-85c2-120200e35689.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e1aada23-e730-463b-8f47-fcd12bf178cb.record","label":"2➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e1aada23-e730-463b-8f47-fcd12bf178cb.table_name","label":"2➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.u_vaga.u_departamento","label":"Trigger➛VagasCandidatos Record➛Vaga➛Departamento","reference":"cmn_department","reference_display":"Department","type":"reference","base_type":"reference","parent_table_name":"u_vagas","column_name":"u_departamento"},{"name":"Updated_1.current.u_id_candidatos.u_nome","label":"Trigger➛VagasCandidatos Record➛Candidato➛Nome","reference":"","reference_display":"Nome","type":"string","base_type":"string","parent_table_name":"u_candidatos","column_name":"u_nome"},{"name":"Updated_1.current.u_id_candidatos.u_sexo","label":"Trigger➛VagasCandidatos Record➛Candidato➛Sexo","reference":"","reference_display":"Sexo","type":"choice","base_type":"choice","parent_table_name":"u_candidatos","column_name":"u_sexo"},{"name":"55377f75-3b3f-4293-9ebf-228d32d528bd.record","label":"4➛Candidatos Record","reference":"u_candidatos","reference_display":"Candidatos","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"55377f75-3b3f-4293-9ebf-228d32d528bd.table_name","label":"4➛Candidatos Table","reference":"u_candidatos","reference_display":"Candidatos","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Contratar</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Contratar">b3efd8041b81b010b47c5283604bcb04</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b2d46c081b81b010b47c5283604bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:43</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=b2d46c081b81b010b47c5283604bcbd8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b2d46c081b81b010b47c5283604bcbd8"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=b2d46c081b81b010b47c5283604bcbd8^sys_idNOT IN7ad4ac081b81b010b47c5283604bcb1d"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Contratar">b2d46c081b81b010b47c5283604bcbd8</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>7ad4ac081b81b010b47c5283604bcb1d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:45</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7ad4ac081b81b010b47c5283604bcb1d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>7ad4ac081b81b010b47c5283604bcb1d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>76d4ac081b81b010b47c5283604bcb1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <value>u_vagascandidatos</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>7ad4ac081b81b010b47c5283604bcb1d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>b2d4ac081b81b010b47c5283604bcb1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <value>u_estagio=aprovado</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=b2d46c081b81b010b47c5283604bcbd8^sys_idNOT INfed46c081b81b010b47c5283604bcbd8"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b2d46c081b81b010b47c5283604bcbd8</id>
+        <name>Contratar</name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:43</sys_created_on>
+        <sys_id>fed46c081b81b010b47c5283604bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:43</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=b2d46c081b81b010b47c5283604bcbd8^sys_idNOT IN3ad46c081b81b010b47c5283604bcbf7,f2d46c081b81b010b47c5283604bcbdc,f2d46c081b81b010b47c5283604bcbed"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Contratar">b2d46c081b81b010b47c5283604bcbd8</model>
+        <model_id>b2d46c081b81b010b47c5283604bcbd8</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_b2d46c081b81b010b47c5283604bcbd8</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>3ad46c081b81b010b47c5283604bcbf7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Contratar">b2d46c081b81b010b47c5283604bcbd8</model>
+        <model_id>b2d46c081b81b010b47c5283604bcbd8</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_b2d46c081b81b010b47c5283604bcbd8</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:43</sys_created_on>
+        <sys_id>f2d46c081b81b010b47c5283604bcbdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD32d46c08b181b010b69b5cf7042299da,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Contratar">b2d46c081b81b010b47c5283604bcbd8</model>
+        <model_id>b2d46c081b81b010b47c5283604bcbd8</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_b2d46c081b81b010b47c5283604bcbd8</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:43</sys_created_on>
+        <sys_id>f2d46c081b81b010b47c5283604bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=b2d46c081b81b010b47c5283604bcbd8^sys_idNOT IN3ed4ac081b81b010b47c5283604bcb15,72d4ac081b81b010b47c5283604bcb0f,7ad4ac081b81b010b47c5283604bcb1b,bad4ac081b81b010b47c5283604bcb09"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>baf174c8c3c232002841b63b12d3aee4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Contratar">b2d46c081b81b010b47c5283604bcbd8</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>3ed4ac081b81b010b47c5283604bcb15</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <ui_id>b20f38f8-58b7-456a-b9f1-9c8e051f46fb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3ed4ac081b81b010b47c5283604bcb15"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3ed4ac081b81b010b47c5283604bcb15</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>3ad4ac081b81b010b47c5283604bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <value>u_vagascandidatos</value>
+        <variable display_value="Table">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3ed4ac081b81b010b47c5283604bcb15</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>76d4ac081b81b010b47c5283604bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <value>u_estagio=concluído</value>
+        <variable display_value="Fields">e7d270ccc3c632002841b63b12d3ae8b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3ed4ac081b81b010b47c5283604bcb15"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>3ed4ac081b81b010b47c5283604bcb15</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>32d4ac081b81b010b47c5283604bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3ed4ac081b81b010b47c5283604bcb15</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>7ed4ac081b81b010b47c5283604bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>3ed4ac081b81b010b47c5283604bcb15</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>f2d4ac081b81b010b47c5283604bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>02f0b88cc3c632002841b63b12d3aeff</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Contratar">b2d46c081b81b010b47c5283604bcbd8</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>72d4ac081b81b010b47c5283604bcb0f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <ui_id>e1aada23-e730-463b-8f47-fcd12bf178cb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=72d4ac081b81b010b47c5283604bcb0f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>72d4ac081b81b010b47c5283604bcb0f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>76d4ac081b81b010b47c5283604bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">0352fc8cc3c632002841b63b12d3ae12</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=72d4ac081b81b010b47c5283604bcb0f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>72d4ac081b81b010b47c5283604bcb0f</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>32d4ac081b81b010b47c5283604bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>72d4ac081b81b010b47c5283604bcb0f</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>f2d4ac081b81b010b47c5283604bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value>active=true^calendar_integration=1^department={{Updated_1.current.u_vaga.u_departamento}}^name={{Updated_1.current.u_id_candidatos.u_nome}}^gender={{Updated_1.current.u_id_candidatos.u_sexo}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>baf174c8c3c232002841b63b12d3aee4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Contratar">b2d46c081b81b010b47c5283604bcbd8</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>7ad4ac081b81b010b47c5283604bcb1b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <ui_id>55377f75-3b3f-4293-9ebf-228d32d528bd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7ad4ac081b81b010b47c5283604bcb1b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ad4ac081b81b010b47c5283604bcb1b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>76d4ac081b81b010b47c5283604bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <value>u_candidatos</value>
+        <variable display_value="Table">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7ad4ac081b81b010b47c5283604bcb1b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>b2d4ac081b81b010b47c5283604bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <value>u_status=encerrado</value>
+        <variable display_value="Fields">e7d270ccc3c632002841b63b12d3ae8b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7ad4ac081b81b010b47c5283604bcb1b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>7ad4ac081b81b010b47c5283604bcb1b</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>7ed4ac081b81b010b47c5283604bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{Updated_1.current.u_id_candidatos}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>7ad4ac081b81b010b47c5283604bcb1b</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>bad4ac081b81b010b47c5283604bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>7ad4ac081b81b010b47c5283604bcb1b</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>32d4ac081b81b010b47c5283604bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>02f0b88cc3c632002841b63b12d3aeff</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Contratar">b2d46c081b81b010b47c5283604bcbd8</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>bad4ac081b81b010b47c5283604bcb09</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <ui_id>ecfc3d42-8095-44dd-b563-78756fc22637</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bad4ac081b81b010b47c5283604bcb09"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bad4ac081b81b010b47c5283604bcb09</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>b2d4ac081b81b010b47c5283604bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <value>u_contratacao</value>
+        <variable display_value="Table">0352fc8cc3c632002841b63b12d3ae12</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bad4ac081b81b010b47c5283604bcb09"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>bad4ac081b81b010b47c5283604bcb09</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>7ed4ac081b81b010b47c5283604bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>bad4ac081b81b010b47c5283604bcb09</id>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>32d4ac081b81b010b47c5283604bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value>u_candidato={{Updated_1.current.u_id_candidatos}}^u_vaga_originadora={{Updated_1.current.u_vaga}}^u_criar_usuario_servicenow=true^u_status_contratacao=contratação iniciada</value>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_b2d46c081b81b010b47c5283604bcbd8^sys_idNOT IN3ad46c081b81b010b47c5283604bcbf3,7ad46c081b81b010b47c5283604bcbfd,f2d46c081b81b010b47c5283604bcbe9"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b2d46c081b81b010b47c5283604bcbd8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:43</sys_created_on>
+        <sys_id>3ad46c081b81b010b47c5283604bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b2d46c081b81b010b47c5283604bcbd8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:44</sys_created_on>
+        <sys_id>7ad46c081b81b010b47c5283604bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b2d46c081b81b010b47c5283604bcbd8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 19:15:43</sys_created_on>
+        <sys_id>f2d46c081b81b010b47c5283604bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 19:15:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA Onboarding DashBoard - New Tab">f4d0cd4c1bc1b010b47c5283604bcb1d</legacy_page>
+        <name>PA Onboarding DashBoard - New Tab</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-24 21:17:55</sys_created_on>
+        <sys_id>7cd0cd4c1bc1b010b47c5283604bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Onboarding DashBoard - New Tab</sys_name>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name>sys_grid_canvas_7cd0cd4c1bc1b010b47c5283604bcb1e</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-24 21:17:55</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>u_candidatos</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>PopulateEndereco</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+    try {
+        var r = new sn_ws.RESTMessageV2('global.CEPAutomation', 'GetCep');
+        r.setStringParameterNoEscape('cepViaCep', current.u_cep);
+
+        var response = r.execute();
+        var responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
+	
+		
+		// Convert JSON formatted string to a JavaScript Object
+		
+		var responseObj = JSON.parse(responseBody);
+		
+		// Set thye value of address fields on the response record
+		
+		current.u_enrececo = responseObj.logradouro;
+		current.u_bairro = responseObj.bairro;
+		current.u_cidade = responseObj.localidade;
+		current.u_estado = responseObj.uf;
+		gs.info("Endereço = " + current.u_endereco);
+		
+		current.update();
+		
+		
+    } catch (err) {
+        // var message = ex.message;
+		gs.info("uncaught error: " + err);
+    }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-25 16:29:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e8b4cd1c1b813010b47c5283604bcb8b</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>PopulateEndereco</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name>sys_script_e8b4cd1c1b813010b47c5283604bcb8b</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2021-06-25 18:38:14</sys_updated_on>
+        <template/>
+        <when>async</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=e8b4cd1c1b813010b47c5283604bcb8b"/>
+</record_update>
