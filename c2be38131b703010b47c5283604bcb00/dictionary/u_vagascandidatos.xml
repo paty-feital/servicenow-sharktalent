@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="VagasCandidatos" max_length="40" name="u_vagascandidatos" sizeclass="1" type="collection">
+        <element label="Desciption" max_length="40" name="u_desciption" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Estagio da Contração" max_length="40" name="u_estagio" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Aprovado" sequence="0" value="aprovado"/>
+                <element inactive_on_update="false" label="Não Aprovado" sequence="1" value="não aprovado"/>
+                <element inactive_on_update="false" label="Concluído" sequence="2" value="concluído"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Candidato" max_length="32" name="u_id_candidatos" reference="u_candidatos" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Vaga" max_length="32" name="u_vaga" reference="u_vagas" type="reference"/>
+        <index name="index">
+            <element name="u_id_candidatos"/>
+        </index>
+        <index name="index2">
+            <element name="u_vaga"/>
+        </index>
+    </element>
+</database>

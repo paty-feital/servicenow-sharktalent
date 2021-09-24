@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Contratacao" max_length="40" name="u_contratacao" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" choice="1" label="Candidato" max_length="40" name="u_candidato" reference="u_candidatos" type="reference" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Criar Usuário ServiceNow" max_length="40" name="u_criar_usuario_servicenow" type="boolean"/>
+        <element label="Data de Início" max_length="40" name="u_data_de_inicio" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" display="true" label="Status Contratação" max_length="40" name="u_status_contratacao" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Contratação Iniciada" sequence="0" value="contratação iniciada"/>
+                <element inactive_on_update="false" label="Contratação Encerrada" sequence="1" value="contratação encerrada"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" choice="1" label="Vaga Originadora" max_length="40" name="u_vaga_originadora" reference="u_vagas" type="reference">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Valor Salárial" max_length="20" name="u_valor_salarial" type="currency"/>
+        <index name="index">
+            <element name="u_vaga_originadora"/>
+        </index>
+        <index name="index2">
+            <element name="u_candidato"/>
+        </index>
+    </element>
+</database>

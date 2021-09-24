@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
-        <active>true</active>
+        <active>false</active>
         <api_name>global.CEPAutomationInc</api_name>
         <caller_access/>
         <client_callable>true</client_callable>
@@ -12,20 +12,20 @@ CEPAutomationInc.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
 
     getCepJSON: function() {
 
-		try {
-        var r = new sn_ws.RESTMessageV2('global.CEPAutomation', 'GetCep');
-        r.setStringParameterNoEscape('cepViaCep', this.getParameter('sysparams_cep'));
-
-        var response = r.execute();
-        var responseBody = response.getBody();
-        var httpStatus = response.getStatusCode();
-		
-		return responseBody;
+        try {
+			var cepCandidato = this.getParameter('sysparams_cep');
 			
-		} catch (err)
-			{
-				gs.info("uncaught error: " + err);
-			}
+            var r = new sn_ws.RESTMessageV2('global.CEPAutomation', 'GetCep');
+            r.setStringParameterNoEscape('cepViaCep', cepCandidato);
+
+            var response = r.execute();
+            var responseBody = response.getBody();
+            var httpStatus = response.getStatusCode();
+
+        } catch (err) {
+            gs.info("uncaught error: " + err);
+        }
+        return responseBody;
     },
 
     type: 'CEPAutomationInc'
@@ -34,13 +34,13 @@ CEPAutomationInc.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2021-06-25 19:38:33</sys_created_on>
         <sys_id>11017d9c1b053010b47c5283604bcba1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>CEPAutomationInc</sys_name>
         <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
         <sys_policy/>
         <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
         <sys_update_name>sys_script_include_11017d9c1b053010b47c5283604bcba1</sys_update_name>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2021-06-25 19:38:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 19:30:56</sys_updated_on>
     </sys_script_include>
 </record_update>

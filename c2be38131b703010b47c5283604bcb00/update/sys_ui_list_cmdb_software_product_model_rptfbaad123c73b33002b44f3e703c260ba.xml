@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="cmdb_software_product_model" version="2" view="RPTfbaad123c73b33002b44f3e703c260ba">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>display_name</element>
+            <list_id display_value="cmdb_software_product_model" element="NULL" name="cmdb_software_product_model" parent="NULL" relationship="NULL" sys_domain="global" view="f30e279c1b593010705285d5624bcb5b">ff0e279c1b593010705285d5624bcb5b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-08 14:48:59</sys_created_on>
+            <sys_id>b70e279c1b593010705285d5624bcb5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-08 14:48:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>manufacturer</element>
+            <list_id display_value="cmdb_software_product_model" element="NULL" name="cmdb_software_product_model" parent="NULL" relationship="NULL" sys_domain="global" view="f30e279c1b593010705285d5624bcb5b">ff0e279c1b593010705285d5624bcb5b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-08 14:48:59</sys_created_on>
+            <sys_id>3b0e279c1b593010705285d5624bcb5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-08 14:48:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>product</element>
+            <list_id display_value="cmdb_software_product_model" element="NULL" name="cmdb_software_product_model" parent="NULL" relationship="NULL" sys_domain="global" view="f30e279c1b593010705285d5624bcb5b">ff0e279c1b593010705285d5624bcb5b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-08 14:48:59</sys_created_on>
+            <sys_id>bb0e279c1b593010705285d5624bcb5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-08 14:48:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>version_operator</element>
+            <list_id display_value="cmdb_software_product_model" element="NULL" name="cmdb_software_product_model" parent="NULL" relationship="NULL" sys_domain="global" view="f30e279c1b593010705285d5624bcb5b">ff0e279c1b593010705285d5624bcb5b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-08 14:48:59</sys_created_on>
+            <sys_id>3f0e279c1b593010705285d5624bcb5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-08 14:48:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>version</element>
+            <list_id display_value="cmdb_software_product_model" element="NULL" name="cmdb_software_product_model" parent="NULL" relationship="NULL" sys_domain="global" view="f30e279c1b593010705285d5624bcb5b">ff0e279c1b593010705285d5624bcb5b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-08 14:48:59</sys_created_on>
+            <sys_id>bf0e279c1b593010705285d5624bcb5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-08 14:48:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>edition_operator</element>
+            <list_id display_value="cmdb_software_product_model" element="NULL" name="cmdb_software_product_model" parent="NULL" relationship="NULL" sys_domain="global" view="f30e279c1b593010705285d5624bcb5b">ff0e279c1b593010705285d5624bcb5b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-08 14:48:59</sys_created_on>
+            <sys_id>330e279c1b593010705285d5624bcb5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-08 14:48:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>edition</element>
+            <list_id display_value="cmdb_software_product_model" element="NULL" name="cmdb_software_product_model" parent="NULL" relationship="NULL" sys_domain="global" view="f30e279c1b593010705285d5624bcb5b">ff0e279c1b593010705285d5624bcb5b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-08 14:48:59</sys_created_on>
+            <sys_id>b30e279c1b593010705285d5624bcb5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-08 14:48:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>discovery_map.name</element>
+            <list_id display_value="cmdb_software_product_model" element="NULL" name="cmdb_software_product_model" parent="NULL" relationship="NULL" sys_domain="global" view="f30e279c1b593010705285d5624bcb5b">ff0e279c1b593010705285d5624bcb5b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-08 14:48:59</sys_created_on>
+            <sys_id>370e279c1b593010705285d5624bcb5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-08 14:48:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>discovery_map.content_version</element>
+            <list_id display_value="cmdb_software_product_model" element="NULL" name="cmdb_software_product_model" parent="NULL" relationship="NULL" sys_domain="global" view="f30e279c1b593010705285d5624bcb5b">ff0e279c1b593010705285d5624bcb5b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-08 14:48:59</sys_created_on>
+            <sys_id>b70e279c1b593010705285d5624bcb5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-08 14:48:59</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>cmdb_software_product_model</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-08 14:48:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff0e279c1b593010705285d5624bcb5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_software_product_model</sys_name>
+            <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+            <sys_update_name>sys_ui_list_cmdb_software_product_model_RPTfbaad123c73b33002b44f3e703c260ba</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-08 14:48:59</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rptfbaad123c73b33002b44f3e703c260ba" name="RPTfbaad123c73b33002b44f3e703c260ba">f30e279c1b593010705285d5624bcb5b</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

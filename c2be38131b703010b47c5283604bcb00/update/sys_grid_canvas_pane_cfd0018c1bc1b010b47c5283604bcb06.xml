@@ -2,7 +2,7 @@
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
         <grid_canvas display_value="PA Onboarding DashBoard - New Tab">7cd0cd4c1bc1b010b47c5283604bcb1e</grid_canvas>
         <height>14</height>
-        <portal_widget display_value="Created 2021-06-24 14:18:04">c7d0490c1bc1b010b47c5283604bcbd0</portal_widget>
+        <portal_widget display_value="Created 24-Jun-21 14:18:04">c7d0490c1bc1b010b47c5283604bcbd0</portal_widget>
         <posx>4</posx>
         <posy>14</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>

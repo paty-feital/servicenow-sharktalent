@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="funcoes" max_length="40" name="u_funcoes" sizeclass="7" type="collection">
+        <element display="true" label="Nome" max_length="100" name="u_nome" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="u_number" type="string" use_dynamic_default="true"/>
+        <element label="Titulo" max_length="40" name="u_titulo" type="string"/>
+    </element>
+</database>

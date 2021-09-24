@@ -12,7 +12,7 @@
         <name>Onboarding DashBoard</name>
         <no_tabs>false</no_tabs>
         <order>300</order>
-        <owner display_value="Patricia Feital">c4d9b85f1b303010b47c5283604bcb9f</owner>
+        <owner display_value="">c4d9b85f1b303010b47c5283604bcb9f</owner>
         <restrict_to_roles/>
         <role_override>true</role_override>
         <roles/>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>To me</description>
+        <field>u_to_me</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages>To me</messages>
+        <name>ToMe</name>
+        <order/>
+        <script><![CDATA[function onChange() {
+    //Type appropriate comment here, and begin script below
+    var assignToMe = g_user.userID;
+    var toMe = g_form.getBooleanValue('u_to_me');
+    if (toMe) {
+        g_form.setValue('u_assigned_to', assignToMe);
+		g_form.setValue('u_to_me', false);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2021-06-23 13:35:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fb4d82e31b307010b47c5283604bcba8</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>ToMe</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name>sys_script_client_fb4d82e31b307010b47c5283604bcba8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-24 16:45:01</sys_updated_on>
+        <table>u_vagas</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</application>
+        <file_path/>
+        <instance_id>96ed409ddb8f2490f37acac50596199a</instance_id>
+        <instance_name>dev107714</instance_name>
+        <name>sys_script_client_fb4d82e31b307010b47c5283604bcba8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;To me&lt;/description&gt;&lt;field&gt;u_to_me&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages&gt;To me&lt;/messages&gt;&lt;name&gt;ToMe&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange() {
+    //Type appropriate comment here, and begin script below
+    var assignToMe = g_user.userID;
+    var toMe = g_form.getBooleanValue('u_to_me');
+    if (toMe) {
+        g_form.setValue('u_assigned_to', assignToMe);
+		g_form.setValue('u_to_me', false);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-23 13:35:08&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;fb4d82e31b307010b47c5283604bcba8&lt;/sys_id&gt;&lt;sys_mod_count&gt;29&lt;/sys_mod_count&gt;&lt;sys_name&gt;ToMe&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00"&gt;c2be38131b703010b47c5283604bcb00&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Aoop Onboarding"&gt;c2be38131b703010b47c5283604bcb00&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_fb4d82e31b307010b47c5283604bcba8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-07-24 16:45:01&lt;/sys_updated_on&gt;&lt;table&gt;u_vagas&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1823430241</payload_hash>
+        <record_name>ToMe</record_name>
+        <reverted_from/>
+        <source>c1d181836d6620100acb70b3534330af</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-24 16:45:01</sys_created_on>
+        <sys_id>e302ea611b613010705285d5624bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ad967e1c10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-24 16:45:01</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>6f02ea619f613010addc0c01f7018316</update_guid>
+        <update_guid_history>6f02ea619f613010addc0c01f7018316:-1823430241,1d9a36e746b07010783d50611c280541:-1447959406,9e79566f54307010db84ef3c16d29bdc:-1417554654,e6491a6fe03070106475df7bbfab14c8:-150496524,a419566f1f307010125f08c748ac52eb:-1032731202,ecb81a6f52307010f6eb3879f08df2c1:-401144995,fd78de2fb0307010842173c7a006bd8c:-485664995,a068d26fbe307010d57b6ddc6d4c3e9c:1293403568,bde7da2fba3070101d165b8894d5058e:-1962811403,b1c79a2f87307010b654473d87ce1d9f:-1645234718,82a7deeb63307010bf6dbaf28f2d187c:-1178915528,23f65eebb6307010f9edf65865cd987a:1190180759,7db69aeb363070108b9044f94553f722:2071343096,5e8692eb3a307010acd221904a03a949:1095894571,8305d2ab0230701003314efd3a60604f:1237468457,21e412ab58307010562a040f926573e3:-20748004,bbd45e6bb73070103a60d85d4bc6b348:1237468457,3d941e6bd53070106ea2319fd213b0b4:-1377465644,da649a6b8f307010372c310eb622a73d:657292807,04649e2b79307010b83856de0ac85269:-1377465644,cd931a2b8a307010bd8a0119e947dacd:1013056021,13539a2b5a307010e789275ee456e397:-1247152824,6b33d22b723070101664192e5e905cad:1013056021,da23562bb0307010bf737366d4cba8a3:387761046,1ef2922bcb3070105a0c4615f6e45894:1580512777,24d2522bf13070106b0155ebf4b222a5:387761046,aa2f42677a30701054abcf3117c59eb1:-239858219,ac0fca270c3070103ec3a1632b60e076:-413991422,19eec62731307010b785994a75419e87:1058137044,7f4d82e349307010adcb18a13a8307aa:-1196692836</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-24 16:45:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>27b5778c32b640988a033ad905568d90</sys_id>
+        <sys_metadata>fb4d82e31b307010b47c5283604bcba8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ToMe</sys_name>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_parent display_value="Vagas">0c3b49db1b703010b47c5283604bcb0c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_scope_delete display_value="">919dc9af2c4b44d692b9b0cedc2493e4</sys_scope_delete>
+        <sys_update_name>sys_script_client_fb4d82e31b307010b47c5283604bcba8</sys_update_name>
+        <sys_update_version display_value="sys_script_client_fb4d82e31b307010b47c5283604bcba8">e302ea611b613010705285d5624bcb17</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-24 16:45:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

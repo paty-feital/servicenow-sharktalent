@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Vagas" max_length="40" name="u_vagas" sizeclass="9" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Assigned to" max_length="32" name="u_assigned_to" reference="sys_user" type="reference"/>
+        <element label="CNPJ" mandatory="true" max_length="40" name="u_cnpj" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Departamento" max_length="40" name="u_departamento" reference="cmn_department" type="reference"/>
+        <element label="Descricao" max_length="40" name="u_descricao" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Funcao" max_length="250" name="u_funcao" reference="u_funcoes" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="junior" label="Nivel" mandatory="true" max_length="40" name="u_nivel" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Junior" sequence="0" value="junior"/>
+                <element inactive_on_update="false" label="Pleno" sequence="1" value="pleno"/>
+                <element inactive_on_update="false" label="Senior" sequence="2" value="senior"/>
+                <element inactive_on_update="false" label="Analyst" sequence="3" value="analyst"/>
+                <element inactive_on_update="false" label="Estagio" sequence="4" value="estagio"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="u_number" type="string" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Quantidade de vaga" max_length="40" name="u_quantidade_de_vaga" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Solicitante" mandatory="true" max_length="40" name="u_solicitante" reference="sys_user" type="reference"/>
+        <element default="Aguardando Aprovação" label="Status da Aprovação" max_length="40" name="u_status_da_aprova_o" type="string"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Teto salarial" max_length="20" name="u_teto_salarial" type="currency"/>
+        <element display="true" label="Titulo" max_length="100" name="u_titulo" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="normal" label="Urgencia" mandatory="true" max_length="40" name="u_urgencia" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Normal" sequence="0" value="normal"/>
+                <element inactive_on_update="false" label="Imediata" sequence="1" value="imediata"/>
+                <element inactive_on_update="false" label="Urgente" sequence="2" value="urgente"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="u_funcao"/>
+        </index>
+        <index name="index3">
+            <element name="u_departamento"/>
+        </index>
+        <index name="index4">
+            <element name="u_solicitante"/>
+        </index>
+    </element>
+</database>

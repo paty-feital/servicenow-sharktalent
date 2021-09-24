@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Candidatos" max_length="40" name="u_candidatos" sizeclass="6" type="collection">
+        <element label="Bairro" max_length="40" name="u_bairro" type="string"/>
+        <element label="CEP" max_length="8" name="u_cep" type="string"/>
+        <element label="Cidade" max_length="40" name="u_cidade" type="string"/>
+        <element label="Complemento" max_length="40" name="u_complemento" type="string"/>
+        <element label="Data de Nascimento" max_length="40" name="u_data_de_nascimento" type="glide_date"/>
+        <element label="Endereço" max_length="40" name="u_enrececo" type="string"/>
+        <element label="Estado" max_length="40" name="u_estado" type="string"/>
+        <element label="Nacionalidade" max_length="40" name="u_nacionalidade" type="string"/>
+        <element display="true" label="Nome" max_length="40" name="u_nome" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Número" max_length="40" name="u_numero" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Pretensão Salárial" max_length="20" name="u_pretensao_salarial" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sexo" max_length="40" name="u_sexo" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Masculino" sequence="0" value="masculino"/>
+                <element inactive_on_update="false" label="Feminino" sequence="1" value="feminino"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="aguardando aprovacao" label="Status" max_length="40" name="u_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Aguardando Aprovacao" sequence="0" value="aguardando aprovacao"/>
+                <element inactive_on_update="false" label="Aguardando atribuicao" sequence="1" value="aguardando atribuicao"/>
+                <element inactive_on_update="false" label="Fase de Entrevistas" sequence="2" value="fase de entrevistas"/>
+                <element inactive_on_update="false" label="Aguardando Contratacao" sequence="3" value="aguardando contratacao"/>
+                <element inactive_on_update="false" label="Encerrado" sequence="4" value="encerrado"/>
+            </choice>
+        </element>
+    </element>
+</database>

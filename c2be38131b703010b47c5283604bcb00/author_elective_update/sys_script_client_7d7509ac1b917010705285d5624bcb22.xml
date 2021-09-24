@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Faz com que apenas o supervisor de RH possa ver o campo de status da vaga</description>
+        <field>account</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages>Faz com que apenas o supervisor de RH possa ver o campo de status da vaga</messages>
+        <name>AssetTag</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	g_form.setValue('asset_tag', u_number);
+    if (g_user.hasRoleExactly('sam_user') == true || g_user.hasRoleExactly('asset') == true) {
+        g_form.setReadOnly('asset_tag', false);
+    } else {
+        g_form.setReadOnly('asset_tag', true);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-08 21:10:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7d7509ac1b917010705285d5624bcb22</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>AssetTag</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name>sys_script_client_7d7509ac1b917010705285d5624bcb22</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-08 21:25:41</sys_updated_on>
+        <table>alm_license</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</application>
+        <file_path/>
+        <instance_id>96ed409ddb8f2490f37acac50596199a</instance_id>
+        <instance_name>dev107714</instance_name>
+        <name>sys_script_client_7d7509ac1b917010705285d5624bcb22</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Faz com que apenas o supervisor de RH possa ver o campo de status da vaga&lt;/description&gt;&lt;field&gt;account&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages&gt;Faz com que apenas o supervisor de RH possa ver o campo de status da vaga&lt;/messages&gt;&lt;name&gt;AssetTag&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+	g_form.setValue('asset_tag', u_number);
+    if (g_user.hasRoleExactly('sam_user') == true || g_user.hasRoleExactly('asset') == true) {
+        g_form.setReadOnly('asset_tag', false);
+    } else {
+        g_form.setReadOnly('asset_tag', true);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-07-08 21:10:52&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7d7509ac1b917010705285d5624bcb22&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;AssetTag&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00"&gt;c2be38131b703010b47c5283604bcb00&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Aoop Onboarding"&gt;c2be38131b703010b47c5283604bcb00&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_7d7509ac1b917010705285d5624bcb22&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-07-08 21:25:41&lt;/sys_updated_on&gt;&lt;table&gt;alm_license&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2054940454</payload_hash>
+        <record_name>AssetTag</record_name>
+        <reverted_from/>
+        <source>c1d181836d6620100acb70b3534330af</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-08 21:25:41</sys_created_on>
+        <sys_id>3ed8c1641bd17010705285d5624bcb56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a880316480000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-08 21:25:41</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>76d8c16409d17010009165120c178d56</update_guid>
+        <update_guid_history>76d8c16409d17010009165120c178d56:-2054940454,f008cde0c9d17010583c81057955f8ee:-822266800,317509ac8c917010e345954436d42225:1937007372</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-08 21:27:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>2e638733c6884bae9a2ffa1e9ef35f91</sys_id>
+        <sys_metadata>7d7509ac1b917010705285d5624bcb22</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AssetTag</sys_name>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_parent display_value="Software Entitlement">40d0c14b6d2620100acb70b353433092</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_scope_delete display_value="">919dc9af2c4b44d692b9b0cedc2493e4</sys_scope_delete>
+        <sys_update_name>sys_script_client_7d7509ac1b917010705285d5624bcb22</sys_update_name>
+        <sys_update_version display_value="sys_script_client_7d7509ac1b917010705285d5624bcb22">3ed8c1641bd17010705285d5624bcb56</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-08 21:27:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="alm_license">alm_license</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>SWL</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-08 17:37:58</sys_created_on>
+        <sys_id>85a4dca01b1d3010705285d5624bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SWL</sys_name>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name>sys_number_85a4dca01b1d3010705285d5624bcbb9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-08 17:37:58</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</application>
+        <file_path/>
+        <instance_id>96ed409ddb8f2490f37acac50596199a</instance_id>
+        <instance_name>dev107714</instance_name>
+        <name>sys_number_85a4dca01b1d3010705285d5624bcbb9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="alm_license">alm_license</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>SWL</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-08 17:37:58</sys_created_on><sys_id>85a4dca01b1d3010705285d5624bcbb9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SWL</sys_name><sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package><sys_policy/><sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope><sys_update_name>sys_number_85a4dca01b1d3010705285d5624bcbb9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-08 17:37:58</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-1478056200</payload_hash>
+        <record_name>SWL</record_name>
+        <reverted_from/>
+        <source>c1d181836d6620100acb70b3534330af</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-08 17:37:59</sys_created_on>
+        <sys_id>17b450e01b1d3010705285d5624bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a87329d200000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-08 17:37:59</sys_updated_on>
+        <type>Number</type>
+        <update_guid>5fb450e0b71d3010518ea40bdd70ed60</update_guid>
+        <update_guid_history>5fb450e0b71d3010518ea40bdd70ed60:-1478056200</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-11 19:57:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>00d08085a56a40e6816be319a222f6d1</sys_id>
+        <sys_metadata>85a4dca01b1d3010705285d5624bcbb9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SWL</sys_name>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_parent display_value="Software Entitlement">40d0c14b6d2620100acb70b353433092</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_scope_delete display_value="">919dc9af2c4b44d692b9b0cedc2493e4</sys_scope_delete>
+        <sys_update_name>sys_number_85a4dca01b1d3010705285d5624bcbb9</sys_update_name>
+        <sys_update_version display_value="sys_number_85a4dca01b1d3010705285d5624bcbb9">17b450e01b1d3010705285d5624bcb61</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-11 19:57:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

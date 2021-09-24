@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_ng_action">
+    <sys_ui_ng_action action="DELETE">
+        <action_name>Assign to me Vagas</action_name>
+        <active>true</active>
+        <color/>
+        <comments/>
+        <condition>(new SMTask()).canAssignToSelf(current)</condition>
+        <form_button>true</form_button>
+        <form_more_item>true</form_more_item>
+        <hide_when_disabled>false</hide_when_disabled>
+        <hint/>
+        <list_button>true</list_button>
+        <name>Assign to me</name>
+        <navigate_back>false</navigate_back>
+        <order>100</order>
+        <script><![CDATA[(new SMTask()).assignToMe(gs.getUserID(), current.sys_id + '');]]></script>
+        <show_for>any</show_for>
+        <sys_class_name>sys_ui_ng_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-24 16:20:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c88c52e51b213010705285d5624bcb17</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Assign to me</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name>sys_ui_ng_action_c88c52e51b213010705285d5624bcb17</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-24 16:22:07</sys_updated_on>
+        <table>u_vagas</table>
+    </sys_ui_ng_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</application>
+        <file_path/>
+        <instance_id>96ed409ddb8f2490f37acac50596199a</instance_id>
+        <instance_name>dev107714</instance_name>
+        <name>sys_ui_ng_action_c88c52e51b213010705285d5624bcb17</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_ng_action"&gt;&lt;sys_ui_ng_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;Assign to me Vagas&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;color/&gt;&lt;comments/&gt;&lt;condition&gt;(new SMTask()).canAssignToSelf(current)&lt;/condition&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_more_item&gt;true&lt;/form_more_item&gt;&lt;hide_when_disabled&gt;false&lt;/hide_when_disabled&gt;&lt;hint/&gt;&lt;list_button&gt;true&lt;/list_button&gt;&lt;name&gt;Assign to me&lt;/name&gt;&lt;navigate_back&gt;false&lt;/navigate_back&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[(new SMTask()).assignToMe(gs.getUserID(), current.sys_id + '');]]&gt;&lt;/script&gt;&lt;show_for&gt;any&lt;/show_for&gt;&lt;sys_class_name&gt;sys_ui_ng_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-07-24 16:20:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c88c52e51b213010705285d5624bcb17&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Assign to me&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00"&gt;c2be38131b703010b47c5283604bcb00&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Aoop Onboarding"&gt;c2be38131b703010b47c5283604bcb00&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_ng_action_c88c52e51b213010705285d5624bcb17&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-07-24 16:22:07&lt;/sys_updated_on&gt;&lt;table&gt;u_vagas&lt;/table&gt;&lt;/sys_ui_ng_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>884731862</payload_hash>
+        <record_name>Assign to me</record_name>
+        <reverted_from/>
+        <source>c1d181836d6620100acb70b3534330af</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-24 16:22:07</sys_created_on>
+        <sys_id>0cdc92691b213010705285d5624bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ad952ea130000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-24 16:22:07</sys_updated_on>
+        <type>UI Action - Mobile</type>
+        <update_guid>04dc92695021301056b53894e8e7a0b6</update_guid>
+        <update_guid_history>04dc92695021301056b53894e8e7a0b6:884731862,408c52e57d21301029b09bda1af8cb1a:-1355128038</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-24 16:24:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_ng_action">sys_ui_ng_action</sys_db_object>
+        <sys_id>5330594e640140219ee05c60b125e821</sys_id>
+        <sys_metadata>c88c52e51b213010705285d5624bcb17</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assign to me</sys_name>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_scope_delete display_value="">919dc9af2c4b44d692b9b0cedc2493e4</sys_scope_delete>
+        <sys_update_name>sys_ui_ng_action_c88c52e51b213010705285d5624bcb17</sys_update_name>
+        <sys_update_version display_value="sys_ui_ng_action_c88c52e51b213010705285d5624bcb17">0cdc92691b213010705285d5624bcbb6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-24 16:24:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

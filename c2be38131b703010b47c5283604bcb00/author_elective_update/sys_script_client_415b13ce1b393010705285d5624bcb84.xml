@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_assigned_to</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Mask CNPJ</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    //Type appropriate comment here, and begin script below
+
+	var CNPJ = g_form.getValue('u_cnpj').replace(/\D/g, '');
+	
+	var cnpjMask = CNPJ.substring(0, 2) + "." + CNPJ.substring(2, 5) + "." + CNPJ.substring(5, 8) + "/" + CNPJ.substring(8, 12) + "-" + CNPJ.substring(12, 14);
+    g_form.setValue('u_cnpj', cnpjMask);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-07 20:51:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>415b13ce1b393010705285d5624bcb84</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Mask CNPJ</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name>sys_script_client_415b13ce1b393010705285d5624bcb84</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-08 16:17:46</sys_updated_on>
+        <table>u_vagas</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</application>
+        <file_path/>
+        <instance_id>96ed409ddb8f2490f37acac50596199a</instance_id>
+        <instance_name>dev107714</instance_name>
+        <name>sys_script_client_415b13ce1b393010705285d5624bcb84</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_assigned_to&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Mask CNPJ&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+    //Type appropriate comment here, and begin script below
+
+	var CNPJ = g_form.getValue('u_cnpj').replace(/\D/g, '');
+	
+	var cnpjMask = CNPJ.substring(0, 2) + "." + CNPJ.substring(2, 5) + "." + CNPJ.substring(5, 8) + "/" + CNPJ.substring(8, 12) + "-" + CNPJ.substring(12, 14);
+    g_form.setValue('u_cnpj', cnpjMask);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-07 20:51:02&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;415b13ce1b393010705285d5624bcb84&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Mask CNPJ&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00"&gt;c2be38131b703010b47c5283604bcb00&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Aoop Onboarding"&gt;c2be38131b703010b47c5283604bcb00&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_415b13ce1b393010705285d5624bcb84&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-08 16:17:46&lt;/sys_updated_on&gt;&lt;table&gt;u_vagas&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1929582372</payload_hash>
+        <record_name>Mask CNPJ</record_name>
+        <reverted_from/>
+        <source>c1d181836d6620100acb70b3534330af</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-08 16:17:46</sys_created_on>
+        <sys_id>e6ab6f521bf9b010705285d5624bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b268e51b40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-08 16:17:46</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>22ab6f52d8f9b010ec50e9cb170fbd24</update_guid>
+        <update_guid_history>22ab6f52d8f9b010ec50e9cb170fbd24:-1929582372,b58dd756f679b010b6d4af299362f653:-1854796183,2441278a927930103799ee02afce91ec:-1929582372,dff06b8a8d7930100088a5412da7ee46:14999772,fb902f4a2f7930100d39238536fe9297:-321096601</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-08 21:26:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>6b47b31fac854e0eb6350f01e963a7e4</sys_id>
+        <sys_metadata>415b13ce1b393010705285d5624bcb84</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mask CNPJ</sys_name>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_parent display_value="Vagas">0c3b49db1b703010b47c5283604bcb0c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_scope_delete display_value="">919dc9af2c4b44d692b9b0cedc2493e4</sys_scope_delete>
+        <sys_update_name>sys_script_client_415b13ce1b393010705285d5624bcb84</sys_update_name>
+        <sys_update_version display_value="sys_script_client_415b13ce1b393010705285d5624bcb84">e6ab6f521bf9b010705285d5624bcb24</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-08 21:26:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

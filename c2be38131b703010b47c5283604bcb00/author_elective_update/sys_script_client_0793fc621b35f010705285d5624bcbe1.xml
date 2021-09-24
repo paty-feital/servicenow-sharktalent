@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_assigned_to</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validate and Maks CNPJ</name>
+        <order/>
+        <script><![CDATA[    var err = "";
+    var cnpj = g_form.getValue('u_cnpj').replace(/\D/g, ''); // removendo os caracteres não numéricos
+    var tam = cnpj.length;
+    if (!(tam == 14 || tam == 0)) { // validando o tamanho
+        err = "'" + cnpj + "' Não parece ser um CNPJ Válido!"; // tamanho inválido
+        g_form.showFieldMsg('u_cnpj', err, 'error');
+    } else {
+        if (!validaCNPJ(cnpj)) { // chama a função que valida o CNPJ
+            err = "'" + cnpj + "' Não é um CNPJ Válido!"; // se quiser mostrar o erro
+            g_form.showFieldMsg('u_cnpj', err, 'error');
+        } else {
+			var cnpjMask = cnpj.substring(0, 2) + "." + cnpj.substring(2, 5) + "." + cnpj.substring(5, 8) + "/" + cnpj.substring(8, 12) + "-" + cnpj.substring(12, 14);
+			g_form.setValue('u_cnpj', cnpjMask);
+            g_form.showFieldMsg('u_cnpj');
+        }
+    }
+
+function validaCNPJ(CNPJ) {
+    var a = new Array();
+    var b = new Number;
+    var c = [6, 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2];
+    for (i = 0; i < 12; i++) {
+        a[i] = CNPJ.charAt(i);
+        b += a[i] * c[i + 1];
+    }
+    if ((x = b % 11) < 2) {
+        a[12] = 0;
+    } else {
+        a[12] = 11 - x;
+    }
+    b = 0;
+    for (y = 0; y < 13; y++) {
+        b += (a[y] * c[y]);
+    }
+    if ((x = b % 11) < 2) {
+        a[13] = 0;
+    } else {
+        a[13] = 11 - x;
+    }
+    if ((CNPJ.charAt(12) != a[12]) || (CNPJ.charAt(13) != a[13])) {
+        return false;
+    }
+    return true;
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-08 21:32:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0793fc621b35f010705285d5624bcbe1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Validate and Maks CNPJ</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_update_name>sys_script_client_0793fc621b35f010705285d5624bcbe1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-08 21:35:20</sys_updated_on>
+        <table>u_vagas</table>
+        <type/>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</application>
+        <file_path/>
+        <instance_id>96ed409ddb8f2490f37acac50596199a</instance_id>
+        <instance_name>dev107714</instance_name>
+        <name>sys_script_client_0793fc621b35f010705285d5624bcbe1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_assigned_to&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Validate and Maks CNPJ&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[    var err = "";
+    var cnpj = g_form.getValue('u_cnpj').replace(/\D/g, ''); // removendo os caracteres não numéricos
+    var tam = cnpj.length;
+    if (!(tam == 14 || tam == 0)) { // validando o tamanho
+        err = "'" + cnpj + "' Não parece ser um CNPJ Válido!"; // tamanho inválido
+        g_form.showFieldMsg('u_cnpj', err, 'error');
+    } else {
+        if (!validaCNPJ(cnpj)) { // chama a função que valida o CNPJ
+            err = "'" + cnpj + "' Não é um CNPJ Válido!"; // se quiser mostrar o erro
+            g_form.showFieldMsg('u_cnpj', err, 'error');
+        } else {
+			var cnpjMask = cnpj.substring(0, 2) + "." + cnpj.substring(2, 5) + "." + cnpj.substring(5, 8) + "/" + cnpj.substring(8, 12) + "-" + cnpj.substring(12, 14);
+			g_form.setValue('u_cnpj', cnpjMask);
+            g_form.showFieldMsg('u_cnpj');
+        }
+    }
+
+function validaCNPJ(CNPJ) {
+    var a = new Array();
+    var b = new Number;
+    var c = [6, 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2];
+    for (i = 0; i &lt; 12; i++) {
+        a[i] = CNPJ.charAt(i);
+        b += a[i] * c[i + 1];
+    }
+    if ((x = b % 11) &lt; 2) {
+        a[12] = 0;
+    } else {
+        a[12] = 11 - x;
+    }
+    b = 0;
+    for (y = 0; y &lt; 13; y++) {
+        b += (a[y] * c[y]);
+    }
+    if ((x = b % 11) &lt; 2) {
+        a[13] = 0;
+    } else {
+        a[13] = 11 - x;
+    }
+    if ((CNPJ.charAt(12) != a[12]) || (CNPJ.charAt(13) != a[13])) {
+        return false;
+    }
+    return true;
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-08 21:32:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0793fc621b35f010705285d5624bcbe1&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validate and Maks CNPJ&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00"&gt;c2be38131b703010b47c5283604bcb00&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Aoop Onboarding"&gt;c2be38131b703010b47c5283604bcb00&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_0793fc621b35f010705285d5624bcbe1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-08 21:35:20&lt;/sys_updated_on&gt;&lt;table&gt;u_vagas&lt;/table&gt;&lt;type/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>87456401</payload_hash>
+        <record_name>Validate and Maks CNPJ</record_name>
+        <reverted_from/>
+        <source>c1d181836d6620100acb70b3534330af</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-08 21:35:21</sys_created_on>
+        <sys_id>2e5438e21b35f010705285d5624bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b27b111a80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-08 21:35:21</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>665438e2ad35f010502251783a289217</update_guid>
+        <update_guid_history>665438e2ad35f010502251783a289217:87456401,c5c334eae0f1f010eed1a1c322b06b36:-1340945366</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-08 21:38:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>62d4b7625e19400481cd89b0a47b9b10</sys_id>
+        <sys_metadata>0793fc621b35f010705285d5624bcbe1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate and Maks CNPJ</sys_name>
+        <sys_package display_value="Aoop Onboarding" source="c2be38131b703010b47c5283604bcb00">c2be38131b703010b47c5283604bcb00</sys_package>
+        <sys_parent display_value="Vagas">0c3b49db1b703010b47c5283604bcb0c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Aoop Onboarding">c2be38131b703010b47c5283604bcb00</sys_scope>
+        <sys_scope_delete display_value="">919dc9af2c4b44d692b9b0cedc2493e4</sys_scope_delete>
+        <sys_update_name>sys_script_client_0793fc621b35f010705285d5624bcbe1</sys_update_name>
+        <sys_update_version display_value="sys_script_client_0793fc621b35f010705285d5624bcbe1">2e5438e21b35f010705285d5624bcb17</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-08 21:38:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
